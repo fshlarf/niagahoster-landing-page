@@ -2,13 +2,10 @@ body {
   font-family: Montserrat !important;
 }
 
-.icon {
-  position: relative;
-  padding: 12px 0px;
-}
-
-.item-center {
-  margin: 0 auto;
+h4 {
+  font-weight: 300!important;
+  margin-bottom: 24px;
+  text-align: center;
 }
 
 p {
@@ -19,6 +16,16 @@ button {
   border-radius: 20px!important;
 }
 
+.icon {
+  position: relative;
+  padding: 12px 0px;
+}
+
+.item-center {
+  margin: 0 auto;
+}
+
 .btn-primary {
   background-color: #0090ef!important;
 }
+

@@ -63,8 +63,5 @@ export default {
             margin-bottom: 20px;
         }
     }
-    &__header {
-        margin-bottom: 26px;
-    }
 }
 </style>

@@ -46,7 +46,6 @@ export default {
 .benefit {
     h4 {
         text-align: center;
-        margin-bottom: 16px;
     }
     border-bottom: 1px #ddd solid;
     padding: 40px 0px !important;
