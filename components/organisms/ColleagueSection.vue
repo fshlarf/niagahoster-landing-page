@@ -35,7 +35,5 @@ export default {
     text-align: center;
     position: relative;
     min-height: 150px;
-    &__content {
-    }
 }
 </style>
