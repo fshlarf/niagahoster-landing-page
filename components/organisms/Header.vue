@@ -84,7 +84,7 @@ export default {
     &__bar{
         max-width: 1120px!important;
         font-size: 12px;
-        font-weight: 600;
+        font-weight: 500;
         margin: 0 auto;
         &-left {
             position: absolute;    
