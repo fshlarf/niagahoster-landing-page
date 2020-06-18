@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="product__img">
-                    <img src="~/assets/images/php-hosting.svg">
+                    <img src="/images/php-hosting.svg">
                 </div>
             </div>
         </div>

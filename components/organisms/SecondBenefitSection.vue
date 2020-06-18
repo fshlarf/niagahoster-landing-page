@@ -26,7 +26,7 @@
                     <button type="button" class="benefit__btn btn btn-primary">Pilih Hoting Anda</button>
                 </div>
                 <div class="benefit__img">
-                    <img src="~/assets/images/support_laravel.svg">
+                    <img src="/images/support_laravel.svg">
                 </div>
             </div>
         </div>
