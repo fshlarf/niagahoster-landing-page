@@ -33,7 +33,6 @@
 
 <script>
 import LabelChecked from '../atoms/LabelChecked'
-
 export default {
     components: {
         LabelChecked

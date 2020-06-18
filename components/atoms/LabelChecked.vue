@@ -2,6 +2,7 @@
     <div class="a-label">
         <i class="fa fa-check-circle"></i>
         <p>{{ title }}</p>
+        <slot></slot>
     </div>
 </template>
 
