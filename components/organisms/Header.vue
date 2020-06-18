@@ -4,7 +4,8 @@
             <div class="header__bar">
                 <ul class="nav header__bar-left">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Gratis Ebook 9 Cara Cerdas Menggunakan Domain [ x ]</a>
+                        <img class="label-img" src="~/assets/images/ng-label.png">
+                        <a class="nav-link" href="#" style="padding-left: 8px;">Gratis Ebook 9 Cara Cerdas Menggunakan Domain [ x ]</a>
                     </li>
                 </ul>
                 <ul class="nav justify-content-end">
@@ -81,7 +82,7 @@ export default {
         }
     }
     &__bar{
-        max-width: 1300px!important;
+        max-width: 1120px!important;
         font-size: 12px;
         font-weight: 600;
         margin: 0 auto;
@@ -91,6 +92,11 @@ export default {
             &--img {
                 height: auto;
                 width: 191px;
+            }
+            .label-img {
+                margin-left: 11px;
+                height: auto;
+                width: 34px;
             }
         }
     }
