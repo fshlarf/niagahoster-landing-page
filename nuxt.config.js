@@ -14,7 +14,8 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', type: 'text/css', href: 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css' },
-      { rel: 'stylesheet', type: 'text/css', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' }
+      { rel: 'stylesheet', href: 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' },
+      { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Montserrat:100,200,300' },
     ],
     script: [
       { src: 'https://code.jquery.com/jquery-3.5.1.slim.min.js' },
@@ -63,5 +64,9 @@ export default {
     */
     extend (config, ctx) {
     }
-  }
+  },
+  css: [
+    {src: "~/assets/styles/styles.scss", lang: 'scss' }
+  ]
+
 }
