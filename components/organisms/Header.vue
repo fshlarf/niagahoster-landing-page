@@ -104,7 +104,8 @@ export default {
         color: black!important;
     }
     .nav-item {
-        display: flex;    
+        display: flex; 
+        cursor: pointer;   
     }
 }
 </style>
