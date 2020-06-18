@@ -44,7 +44,7 @@ export default {
 <style lang="scss" scoped>
 .product {
     border-bottom: 1px #ddd solid;
-    padding: 40px 16px 40px 16px !important;
+    padding: 40px 0px !important;
     .conatiner {
         max-width: 1120px!important;
         font-weight: 500 !important;
@@ -67,6 +67,9 @@ export default {
         img {
             width: 29rem;
         }
+    }
+    .row {
+        padding: 0px 8px !important;
     }
 }
 </style>
