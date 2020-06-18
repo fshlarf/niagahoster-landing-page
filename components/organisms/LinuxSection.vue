@@ -54,7 +54,8 @@ export default {
     }
     &__img {
         img {
-            width: 26rem;
+            margin-top: -40px;
+            width: 28rem;
         }
     }
     .row {

@@ -54,7 +54,7 @@ export default {
 
 <style lang="scss" scoped>
 .benefit {
-    padding: 40px 40px;
+    padding: 40px 20px;
     text-align: center;
     position: relative;
     min-height: 150px;

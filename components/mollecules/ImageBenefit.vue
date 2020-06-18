@@ -1,7 +1,7 @@
 <template>
-    <div class="col">
+    <div class="col" style="margin-top: 20px; margin-bottom: 20px">
         <img :src="`/images/${fileImg}`" alt="Image not found">
-        <h4>{{ title }}</h4>
+        <h5>{{ title }}</h5>
         <p v-html="desc"></p>
     </div>
 </template>
@@ -23,5 +23,9 @@ img {
 }
 p {
     font-size: 15px;
+}
+h5 {
+    font-weight: 600!important;
+    margin-bottom: 5px;
 }
 </style>
