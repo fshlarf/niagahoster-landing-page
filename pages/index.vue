@@ -8,6 +8,7 @@
       <SecondBenefit/>
       <ModuleSection/>
       <LinuxSection/>
+      <FanspagePanel/>
     </div>
   </div>
 </template>
@@ -20,6 +21,7 @@ import SecondBenefitSection from '~/components/organisms/SecondBenefitSection.vu
 import SpecSection from '~/components/organisms/SpecSection.vue'
 import ModuleSection from '~/components/organisms/ModuleSection.vue'
 import LinuxSection from '~/components/organisms/LinuxSection.vue'
+import FanspagePanel from '~/components/organisms/FanspagePanel.vue'
 
 export default {
   layout: 'HeaderFooter',
@@ -31,6 +33,7 @@ export default {
     ModuleSection: ModuleSection,
     SpecSection: SpecSection,
     LinuxSection: LinuxSection,
+    FanspagePanel: FanspagePanel,
   }
 }
 </script>

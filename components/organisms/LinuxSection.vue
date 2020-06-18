@@ -37,8 +37,7 @@ export default {
     h4 {
         text-align: left!important;
     }
-    border-bottom: 1px #ddd solid;
-    padding: 40px 0px !important;
+    padding: 40px 0px 0px 0px!important;
     .conatiner {
         max-width: 1120px!important;
         font-weight: 500 !important;
