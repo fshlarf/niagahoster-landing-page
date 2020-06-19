@@ -9,6 +9,7 @@
       <ModuleSection/>
       <LinuxSection/>
       <FanspagePanel/>
+      <ContactPerson/>
     </div>
   </div>
 </template>
@@ -22,6 +23,7 @@ import SpecSection from '~/components/organisms/SpecSection.vue'
 import ModuleSection from '~/components/organisms/ModuleSection.vue'
 import LinuxSection from '~/components/organisms/LinuxSection.vue'
 import FanspagePanel from '~/components/organisms/FanspagePanel.vue'
+import ContactPerson from '~/components/organisms/ContactPerson.vue'
 
 export default {
   layout: 'HeaderFooter',
@@ -34,6 +36,7 @@ export default {
     SpecSection: SpecSection,
     LinuxSection: LinuxSection,
     FanspagePanel: FanspagePanel,
+    ContactPerson: ContactPerson
   }
 }
 </script>
