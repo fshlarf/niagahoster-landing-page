@@ -51,7 +51,7 @@
                             <input placeholder="Email"/>
                             <button type="button" class="btn btn-primary">Berlangganan</button>
                         </div>
-                        <p class="footer__newsletter-text">Dapatkan promo dan konten menarik <br>dari penyedia hosting terbaik Anda.</p>
+                        <p class="footer__newsletter-text grey-text">Dapatkan promo dan konten menarik <br>dari penyedia hosting terbaik Anda.</p>
                     </div>
                 </div>
                 <div class="footer__credentials coloum">
@@ -64,7 +64,7 @@
                 <div class="footer__payment">
                     <h5>PEMBAYARAN</h5>
                     <img src="/images/payment.png" alt="">
-                    <p>Aktivasi instan dengan e-Payment. Hosting dan domain langsung aktif!</p>
+                    <p class="grey-text">Aktivasi instan dengan e-Payment. Hosting dan domain langsung aktif!</p>
                 </div>
             </div>
             <div class="footer__line">
@@ -109,6 +109,7 @@ export default {
     color: white!important;
     font-size: 12px!important;
     h5 {
+        color: #8e8e8e!important;
         padding: 16px!important;
         margin-bottom: 16px;
         font-size: 16px;
@@ -192,6 +193,9 @@ export default {
     &__policy {
         padding: 0px 16px!important;
         margin-left: auto;
+    }
+    .grey-text {
+        color: #8e8e8e!important;
     }
 }
 </style>
