@@ -18,7 +18,7 @@
                         :arrayModule="services"
                     />
                 </div>
-                <div class="coloum">
+                <div class="" style="width: 28%">
                     <h5>SERVIS HOSTING</h5>
                     <ListInfo
                         :arrayModule="serviceHosting"
@@ -44,18 +44,38 @@
                         :arrayModule="reasons"
                     />
                 </div>
-                <div class="footer__newsletter coloum">
+                <div class="footer__newsletter" style="width: 27%">
                     <h5>NEWSLETTER</h5>
-                    <div class="footer__newsletter-content">
-                        <input placeholder="Email"/>
-                        <button type="button" class="btn btn-primary">Berlangganan</button>
+                    <div class="cont">
+                        <div class="footer__newsletter-content">
+                            <input placeholder="Email"/>
+                            <button type="button" class="btn btn-primary">Berlangganan</button>
+                        </div>
+                        <p class="footer__newsletter-text">Dapatkan promo dan konten menarik <br>dari penyedia hosting terbaik Anda.</p>
                     </div>
-                    <p class="footer__newsletter-text">Dapatkan promo dan konten menarik <br>dari penyedia hosting terbaik Anda.</p>
                 </div>
                 <div class="footer__credentials coloum">
                     <i class="fa fa-facebook fb"></i>  
                     <i class="fa fa-twitter tw"></i>  
                     <i class="fa fa-google-plus gp"></i>  
+                </div>
+            </div>
+            <div class="footer__row">
+                <div class="footer__payment">
+                    <h5>PEMBAYARAN</h5>
+                    <img src="/images/payment.png" alt="">
+                    <p>Aktivasi instan dengan e-Payment. Hosting dan domain langsung aktif!</p>
+                </div>
+            </div>
+            <div class="footer__line">
+                <hr>
+            </div>
+            <div class="footer__row">
+                <div class="footer__copyright">
+                    <p>Copyright ©2016 Niagahoster | Hosting powered by PHP7, CloudLinux, CloudFlare, BitNinja and DC DCI-Indonesia. Cloud VPS Murah powered by Webuzo Softaculous, Intel SSD and cloud computing technology </p>
+                </div>
+                <div class="footer__policy">
+                    <p>Syarat dan Ketentuan | Kebijakan Privasi</p>
                 </div>
             </div>
         </div>
@@ -84,10 +104,10 @@ export default {
 
 <style lang="scss" scoped>
 .footer {
-    padding: 60px 0px 30px 0px;
+    padding: 60px 0px 10px 0px;
     background-color: #303030;
     color: white!important;
-    font-size: 14px!important;
+    font-size: 12px!important;
     h5 {
         padding: 16px!important;
         margin-bottom: 16px;
@@ -105,8 +125,8 @@ export default {
         margin-bottom: 70px;
     }
     &__newsletter {
-        h5 {
-            margin-left: -10px;
+        .cont {
+            padding: 0px 16px;
         }
         &-content {
             background-color: white;
@@ -136,7 +156,7 @@ export default {
             border: 1px solid white;
             border-radius: 50px;
             font-size: 26px;
-            margin: 72px 10px;
+            margin: 65px 10px;
         }
         .fb {
             padding: 18px 23px;
@@ -149,8 +169,29 @@ export default {
         }
     }
     .coloum {
-        width: 30%;
+        width: 25%;
         text-align: left;
+    }
+    &__payment {
+        img {
+            padding: 0px 16px;
+            margin-top: -30px!important;
+        }
+        p {
+            padding: 0px 16px;
+        }
+    }
+    &__line {
+        padding: 0px 16px!important;
+        margin-top: -40px;
+    }
+    &__copyright {
+        padding: 0px 16px!important;
+        width: 70%;
+    }
+    &__policy {
+        padding: 0px 16px!important;
+        margin-left: auto;
     }
 }
 </style>
