@@ -65,6 +65,9 @@ export default {
     extend (config, ctx) {
     }
   },
+  router: {
+    base: '/niagahoster-landing-page/'
+  },
   css: [
     {src: "~/assets/styles/styles.scss", lang: 'scss' }
   ]
