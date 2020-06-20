@@ -1,16 +1,15 @@
 <template>
   <div>
-    <div>
-      <Product/>
-      <Colleague/>
-      <SpecSection/>
-      <Benefit/>
-      <SecondBenefit/>
-      <ModuleSection/>
-      <LinuxSection/>
-      <FanspagePanel/>
-      <ContactPerson/>
-    </div>
+    <Product/>
+    <Colleague/>
+    <PriceSection/>
+    <SpecSection/>
+    <Benefit/>
+    <SecondBenefit/>
+    <ModuleSection/>
+    <LinuxSection/>
+    <FanspagePanel/>
+    <ContactPerson/>
   </div>
 </template>
 
@@ -24,6 +23,7 @@ import ModuleSection from '~/components/organisms/ModuleSection.vue'
 import LinuxSection from '~/components/organisms/LinuxSection.vue'
 import FanspagePanel from '~/components/organisms/FanspagePanel.vue'
 import ContactPerson from '~/components/organisms/ContactPerson.vue'
+import PriceSection from '~/components/organisms/PriceSection.vue'
 
 export default {
   layout: 'HeaderFooter',
@@ -36,7 +36,8 @@ export default {
     SpecSection: SpecSection,
     LinuxSection: LinuxSection,
     FanspagePanel: FanspagePanel,
-    ContactPerson: ContactPerson
+    ContactPerson: ContactPerson,
+    PriceSection: PriceSection
   }
 }
 </script>
