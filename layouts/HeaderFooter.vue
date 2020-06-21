@@ -1,6 +1,7 @@
 <template>
     <div>
       <Header/>
+      <NavBar/>
       <nuxt />
       <Footer />
     </div>
@@ -8,10 +9,12 @@
 
 <script>
 import Header from '~/components/organisms/Header.vue'
+import NavBar from '~/components/organisms/NavBar.vue'
 import Footer from '~/components/organisms/Footer.vue'
 export default {
   components: {
     Header,
+    NavBar,
     Footer
   }
 }
