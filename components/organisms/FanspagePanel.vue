@@ -71,4 +71,30 @@ export default {
         }
     }
 }
+@media (max-width: 350px) {
+    .fanspage__title {
+        width: 100%!important;
+        p {
+            padding-top: 5px;
+            font-weight: 600 !important;
+            font-size: 13px;
+        }
+    }
+    .container {
+        display: block!important;
+    }
+}
+@media (max-width: 800px) {
+    .fanspage__title {
+        width: 100%!important;
+        p {
+            padding-top: 5px;
+            font-weight: 600 !important;
+            font-size: 13px;
+        }
+    }
+    .container {
+        display: block!important;
+    }
+}
 </style>

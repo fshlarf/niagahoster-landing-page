@@ -56,4 +56,19 @@ export default {
         }
     }
 }
+@media (max-width: 800px) {
+    .container {
+        display: block!important;
+    }
+    .cp__title {
+        width: 100%;
+        p {
+            font-size: 18px!important;
+        }
+    }
+    .cp__channel {
+        width: fit-content;
+        margin: 0 auto;
+    }
+}
 </style>

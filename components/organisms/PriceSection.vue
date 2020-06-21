@@ -1,7 +1,7 @@
 <template>
     <div class="price">
         <div class="container">
-            <div v-for="(item, id) in packagesPrice" :key="id">
+            <div class="content" v-for="(item, id) in packagesPrice" :key="id">
                 <CardPrice
                     :result="item"
                 />
@@ -46,6 +46,24 @@ export default {
     .container {
         display: flex;
         margin: 0 auto;
+    }
+}
+@media (max-width: 350px) {
+    .container {
+        display: block!important;
+        margin: 0 auto;
+    }
+    .content {
+        margin: 20px 0px!important;
+    }
+}
+@media (max-width: 800px) {
+    .container {
+        display: block!important;
+        margin: 0 auto;
+    }
+    .content {
+        margin: 20px 0px!important;
     }
 }
 </style>

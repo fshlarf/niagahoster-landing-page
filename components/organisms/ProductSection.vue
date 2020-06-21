@@ -44,7 +44,7 @@ export default {
 .product {
     border-bottom: 1px #ddd solid;
     padding: 40px 0px !important;
-    .conatiner {
+    .container {
         max-width: 1120px!important;
         font-weight: 500 !important;
         margin: 0 auto !important;
@@ -69,6 +69,27 @@ export default {
     }
     .row {
         padding: 0px 8px !important;
+    }
+}
+@media (max-width: 800px) {
+    img {
+        width: 180px!important;
+        margin: 0 auto!important;
+    }
+    .row {
+        display:block;
+    }
+    .product__img {
+        text-align: center;
+        margin-top: 20px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+}
+@media  only screen and (min-width: 880px) and (max-width: 1020px) {
+    .container {
+        display: contents!important;
     }
 }
 </style>

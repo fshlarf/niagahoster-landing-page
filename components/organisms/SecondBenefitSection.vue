@@ -23,7 +23,9 @@
                         </LabelChecked>
                     </div>
                     <p class="benefit__notes">Nb. Composer dan SSH hanya tersedia pada paket Personal dan Bisnis</p>
-                    <button type="button" class="benefit__btn btn btn-primary">Pilih Hoting Anda</button>
+                    <div class="benefit__btn">
+                        <button type="button" class="benefit__btn btn btn-primary">Pilih Hoting Anda</button>
+                    </div>
                 </div>
                 <div class="benefit__img">
                     <img src="/images/support_laravel.svg">
@@ -84,6 +86,22 @@ export default {
     }
     &__btn {
         margin-top: 16px;
+    }
+}
+@media (max-width: 800px) {
+    img {
+        width: 180px!important;
+        margin: 0 auto;
+    }
+    .row {
+        display: block!important;
+    }
+    .benefit__btn, .benefit__img {
+        text-align: center!important;
+    }
+    .benefit__btn {
+        text-align: center;
+        margin-bottom: 20px;
     }
 }
 </style>

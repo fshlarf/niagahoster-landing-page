@@ -43,7 +43,7 @@ export default {
         margin: 0 auto;
         &-left {
             position: absolute;    
-            width: 36%;
+            width: 50%;
             &--img {
                 height: auto;
                 width: 191px;
@@ -61,6 +61,16 @@ export default {
     .nav-item {
         display: flex; 
         cursor: pointer;   
+    }
+}
+@media (max-width: 350px) {
+    .header {
+        display: none;
+    }
+}
+@media (max-width: 800px) {
+    .header {
+        display: none;
     }
 }
 </style>

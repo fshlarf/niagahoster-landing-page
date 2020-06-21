@@ -3,21 +3,22 @@
         <h4>Modul Lengkap untuk Menjalankan Aplikasi PHP Anda</h4>
         <div class="module__content">
             <div class="row">
-                <!-- <div class="col">
-                    col
-                </div> -->
-                <ListModule
-                    :arrayModule="dataColoum1"
-                />
-                <ListModule
-                    :arrayModule="dataColoum2"
-                />
-                <ListModule
-                    :arrayModule="dataColoum3"
-                />
-                <ListModule
-                    :arrayModule="dataColoum4"
-                />
+                <div class="row__element">
+                    <ListModule
+                        :arrayModule="dataColoum1"
+                    />
+                    <ListModule
+                        :arrayModule="dataColoum2"
+                    />
+                </div>
+                <div class="row__element">
+                    <ListModule
+                        :arrayModule="dataColoum3"
+                    />
+                    <ListModule
+                        :arrayModule="dataColoum4"
+                    />
+                </div>
             </div>
         </div>
         <div class="module__btn">
@@ -48,6 +49,9 @@ export default {
     max-width: 1000px!important;
     padding: 40px 16px!important;
     margin: 0 auto !important;
+    &__content {
+        display: flex;
+    }
     .col {
         margin-left: 4rem;
     }
@@ -57,6 +61,33 @@ export default {
     &__btn {
         margin-top: 40px;
         text-align: center;
+    }
+    .row {
+        &__element {
+            display: flex;
+        }
+    }
+}
+@media (max-width: 350px) {
+    .row {
+        display: block!important;
+    }
+    .row__element {
+        margin-bottom: 20px!important;
+    }
+    .col {
+        margin-left: 0px!important;
+    }
+}
+@media (max-width: 800px) {
+    .row {
+        display: block!important;
+    }
+    .row__element {
+        margin-bottom: 20px!important;
+    }
+    .col {
+        margin-left: 0px!important;
     }
 }
 </style>

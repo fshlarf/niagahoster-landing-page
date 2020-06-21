@@ -36,4 +36,24 @@ export default {
     position: relative;
     min-height: 150px;
 }
+@media (max-width: 350px) {
+    img {
+        width: 180px!important;
+        margin: 0 auto;
+        margin-top: 20px!important;
+    }
+    .row {
+        display: block;
+    }
+}
+@media (max-width: 800px) {
+    img {
+        width: 180px!important;
+        margin: 0 auto;
+        margin-top: 20px!important;
+    }
+     .row {
+        display: block;
+    }
+}
 </style>

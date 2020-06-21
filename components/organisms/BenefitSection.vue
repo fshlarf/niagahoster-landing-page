@@ -64,4 +64,22 @@ export default {
         }
     }
 }
+@media (max-width: 350px) {
+    img {
+        width: 180px!important;
+        margin: 0 auto;
+    }
+    .row {
+        display: block!important;
+    }
+}
+@media (max-width: 800px) {
+    img {
+        width: 180px!important;
+        margin: 0 auto;
+    }
+    .row {
+        display: block!important;
+    }
+}
 </style>

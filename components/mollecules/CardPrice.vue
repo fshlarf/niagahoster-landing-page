@@ -66,7 +66,7 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-    width: 19rem;
+    width: auto;
     text-align: center;
     table {
         font-family: arial, sans-serif;
@@ -117,17 +117,17 @@ export default {
         p {
             margin-bottom: 0px;
         }
+    }
+    .row {
+        &-users {
+            background-color: #007fde;
+            border-color: #007fde;
+            color: white;
         }
-        .row {
-            &-users {
-                background-color: #007fde;
-                border-color: #007fde;
-                color: white;
-            }
-            &-price {
-                background-color: #008fee;
-                color: white;
-            }
+        &-price {
+            background-color: #008fee;
+            color: white;
         }
     }
+}
 </style>

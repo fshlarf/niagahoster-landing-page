@@ -1,10 +1,10 @@
 <template>
-  <div class="linux">
+  <div class="lx">
         <div class="container">
             <h4>Linux Hosting yang Stabil<br>dengan Teknologi LVE</h4>
             <div class="row">
                 <div class="col">
-                    <div class="linux__content">
+                    <div class="lx__content">
                         <p>
                             Super Micro <b>Intel Xeon 24-Cores</b> server dengan RAM <b>128 GB</b> dan<br>
                             teknologi <b>LVE CloudLinux</b> untuk stabilitas server Anda. Dilengkapi<br>
@@ -13,11 +13,9 @@
                             dan auto backup untuk keamanan website PHP Anda.
                         </p>
                     </div>
-                    <button type="button" class="linux__btn btn btn-primary">Pilih Hoting Anda</button>
+                    <button type="button" class="lx__btn btn btn-primary">Pilih Hoting Anda</button>
                 </div>
-                <div class="linux__img">
-                    <img src="/images/image_support.png">
-                </div>
+                <img src="/images/image_support.png">
             </div>
         </div>
     </div>
@@ -33,12 +31,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.linux {
+.lx {
     h4 {
         text-align: left!important;
     }
     padding: 40px 0px 0px 0px!important;
-    .conatiner {
+    .container {
         max-width: 1120px!important;
         font-weight: 500 !important;
         margin: 0 auto !important;
@@ -51,17 +49,22 @@ export default {
             margin-left: -20px;
         }
     }
-    &__img {
-        img {
-            margin-top: -40px;
-            width: 28rem;
-        }
+    img {
+        margin-top: -40px;
+        width: 24rem;
     }
     .row {
         padding: 0px 8px !important;
+        display: flex;
     }
     &__btn {
         margin-top: 16px;
+    }
+}
+@media (max-width: 800) {
+    img {
+        max-width: 180px!important;
+        margin: 0 auto;
     }
 }
 </style>

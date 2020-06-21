@@ -2,7 +2,7 @@
     <div class="footer">
         <div class="container">
             <div class="footer__row">
-                <div class="coloum">
+                <div class="coloum footer__contact-us">
                     <h5>HUBUNGI KAMI</h5>
                     <ListInfo
                         :arrayModule="dataCompany1"
@@ -12,19 +12,19 @@
                         :arrayModule="dataCompany2"
                     />
                 </div>
-                <div class="coloum">
+                <div class="coloum footer__services">
                     <h5>LAYANAN</h5>
                     <ListInfo
                         :arrayModule="services"
                     />
                 </div>
-                <div class="" style="width: 28%">
+                <div class="footer__services-host" style="width: 28%">
                     <h5>SERVIS HOSTING</h5>
                     <ListInfo
                         :arrayModule="serviceHosting"
                     />
                 </div>
-                <div class="coloum">
+                <div class="coloum footer__tutorial">
                     <h5>TUTORIAL</h5>
                     <ListInfo
                         :arrayModule="tutorial"
@@ -32,13 +32,13 @@
                 </div>
             </div>
             <div class="footer__row">
-                <div class="coloum">
+                <div class="coloum footer__about">
                     <h5>TENTANG KAMI</h5>
                     <ListInfo
                         :arrayModule="aboutUs"
                     />
                 </div>
-                <div class="coloum">
+                <div class="coloum footer__reasons">
                     <h5>KENAPA PILIH NIAGAHOSTER?</h5>
                     <ListInfo
                         :arrayModule="reasons"
@@ -197,6 +197,34 @@ export default {
     }
     .grey-text {
         color: #8e8e8e!important;
+    }
+}
+@media (max-width: 800px) {
+    .footer {
+        padding-top: 10px;
+    }
+   .footer__row {
+        display: block;
+    }
+    .footer__contact-us, .footer__services-host, .footer__services, .footer__tutorial, .footer__payment, .footer__reasons {
+        display: none;
+    }
+    .footer__newsletter {
+        width: auto!important;
+    }
+    .coloum {
+        width: auto!important;
+    }
+    i {
+        font-size: 20px;
+        margin: 0px 10px!important;
+    }
+    .footer__copyright {
+        width: auto!important;
+    }
+    h5 {
+        margin-bottom: 0px!important;
+        // margin-top: -10px!important;
     }
 }
 </style>
