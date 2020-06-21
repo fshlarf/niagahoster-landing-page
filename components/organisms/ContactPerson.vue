@@ -20,7 +20,7 @@ export default {
 
 <style lang="scss" scoped>
 .cp {
-    padding: 60px 0px;
+    padding: 43px 0px;
     background-color: #00a2f3;
     color: white!important;
     .container {

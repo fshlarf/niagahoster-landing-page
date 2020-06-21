@@ -104,7 +104,7 @@ export default {
 
 <style lang="scss" scoped>
 .footer {
-    padding: 60px 0px 10px 0px;
+    padding: 35px 0px 10px 0px;
     background-color: #303030;
     color: white!important;
     font-size: 12px!important;
@@ -123,7 +123,7 @@ export default {
     }
     &__row {
         display: flex;
-        margin-bottom: 70px;
+        margin-bottom: 45px;
     }
     &__newsletter {
         .cont {
@@ -136,7 +136,7 @@ export default {
             border-radius: 25px;
             margin-bottom: 10px;
             button {
-                padding: 10px 10px;
+                padding: 8px 10px;
             }
             input {
                 background-color: transparent!important;
@@ -174,6 +174,7 @@ export default {
         text-align: left;
     }
     &__payment {
+        margin-top: -20px;
         img {
             padding: 0px 16px;
             margin-top: -30px!important;

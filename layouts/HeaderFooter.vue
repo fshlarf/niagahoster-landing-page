@@ -1,8 +1,8 @@
 <template>
     <div>
-        <Header/>
-        <nuxt />
-        <Footer />
+      <Header/>
+      <nuxt />
+      <Footer />
     </div>
 </template>
 
@@ -10,10 +10,10 @@
 import Header from '~/components/organisms/Header.vue'
 import Footer from '~/components/organisms/Footer.vue'
 export default {
-    components: {
-        Header,
-        Footer
-    }
+  components: {
+    Header,
+    Footer
+  }
 }
 </script>
 
