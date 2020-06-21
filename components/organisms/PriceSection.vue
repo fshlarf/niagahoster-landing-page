@@ -30,7 +30,6 @@ export default {
             axios.get('https://demo8935229.mockable.io/')
             .then(res => {
                 this.packagesPrice = res.data.packages
-                console.log(this.packages);
             })
             .catch(err => {
                 console.log(err)
