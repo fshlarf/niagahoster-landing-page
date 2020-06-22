@@ -43,7 +43,8 @@ $ yarn start
 - SCSS
 
 <b>API Source</b>
-- [Mockable.io](https://demo8935229.mockable.io) *Ask me if you want to change the Response of API, you have to log in with my account*
+- [Mockable.io](https://www.mockable.io) *Ask me if you want to change the Response of API, you have to log in with my account*
+- [Packages Prices API](https://demo8935229.mockable.io)
 
 © [Faishal Arif]()
 <br>
