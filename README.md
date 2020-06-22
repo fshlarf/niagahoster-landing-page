@@ -10,7 +10,7 @@ Clone this repository
 
 Install dependencies
 ``` bash
-$ npm install # Or yarn install
+$ yarn install
 
 ```
 
