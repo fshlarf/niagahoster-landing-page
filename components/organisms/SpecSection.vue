@@ -50,14 +50,6 @@ export default {
         margin-bottom: 45px;
     }
 }
-@media (max-width: 350px) {
-    .spec__content {
-        display: block;
-    }
-    .col {
-        margin: 20px 0px;
-    }
-}
 @media (max-width: 800px) { 
     .spec__content {
         display: block;

@@ -101,4 +101,12 @@ hr {
         border-radius: 10px!important;
     }
 }
+@media (max-width: 800px) {
+    .header {
+        padding: 0px 0px !important;
+        &__bar-right {
+            padding: 10px 10px!important;
+        }
+    }
+}
 </style>

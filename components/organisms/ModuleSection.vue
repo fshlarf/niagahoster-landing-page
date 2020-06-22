@@ -63,31 +63,25 @@ export default {
         text-align: center;
     }
     .row {
+        margin: 0 auto;
         &__element {
             display: flex;
         }
     }
 }
-@media (max-width: 350px) {
-    .row {
-        display: block!important;
-    }
-    .row__element {
-        margin-bottom: 20px!important;
-    }
-    .col {
-        margin-left: 0px!important;
-    }
-}
 @media (max-width: 800px) {
     .row {
         display: block!important;
-    }
-    .row__element {
-        margin-bottom: 20px!important;
+        margin: 0 auto!important;
+        &__element {
+            margin-bottom: 20px!important;
+        }
     }
     .col {
         margin-left: 0px!important;
+    }
+    .module__btn {
+        margin-top: 10px;
     }
 }
 </style>

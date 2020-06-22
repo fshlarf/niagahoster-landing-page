@@ -63,11 +63,6 @@ export default {
         cursor: pointer;   
     }
 }
-@media (max-width: 350px) {
-    .header {
-        display: none;
-    }
-}
 @media (max-width: 800px) {
     .header {
         display: none;

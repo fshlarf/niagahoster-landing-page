@@ -48,15 +48,6 @@ export default {
         margin: 0 auto;
     }
 }
-@media (max-width: 350px) {
-    .container {
-        display: block!important;
-        margin: 0 auto;
-    }
-    .content {
-        margin: 20px 0px!important;
-    }
-}
 @media (max-width: 800px) {
     .container {
         display: block!important;
