@@ -108,6 +108,7 @@ export default {
         margin-top: -20px;
     }
     .big-price {
+        font-weight: 800;
         font-size: 50px;
         margin-top: -14px;
     }
