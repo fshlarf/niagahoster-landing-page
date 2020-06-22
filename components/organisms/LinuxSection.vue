@@ -10,7 +10,9 @@
                     berbasis LiteSpeed Technologies, <b>CageFS</b> security, <b>Raid-10</b> protection<br>
                     dan auto backup untuk keamanan website PHP Anda.
                 </p>
-                <button type="button" class="linux__btn btn btn-primary">Pilih Hoting Anda</button>
+                <div class="linux__content-info--btn">
+                    <button type="button" class="linux__btn btn btn-primary">Pilih Hoting Anda</button>
+                </div>
             </div>
             <div class="linux__content-img">
                 <img src="~/assets/images/image_support.png">
@@ -60,6 +62,9 @@ export default {
                 button {
                     margin-bottom: 20px;
                     margin-top: 0px;
+                }
+                &--btn {
+                    text-align: center;
                 }
             }
             &-img {
