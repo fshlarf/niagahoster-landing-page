@@ -1,4 +1,4 @@
-# NiagahosterLandingPage
+# Niagahoster Landing Page
 
 > Niagahoster Landing Page.
 > It's been deployed on github.io. Check this project in production mode by click this link [https://fshlarf.github.io/niagahoster-landing-page/](https://fshlarf.github.io/niagahoster-landing-page/)
