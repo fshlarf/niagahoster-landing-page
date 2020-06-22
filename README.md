@@ -1,22 +1,52 @@
 # NiagahosterLandingPage
 
-> Niagahoster Landing Page Project
+> Niagahoster Landing Page.
+> It's been deployed on github.io. Check this project in production mode [https://fshlarf.github.io/niagahoster-landing-page/](https://fshlarf.github.io/niagahoster-landing-page/)
 
 ## Build Setup
 
-```bash
-# install dependencies
-$ yarn install
+Clone this repository
 
-# serve with hot reload at localhost:3000
+
+Install dependencies
+``` bash
+$ npm install # Or yarn install
+
+```
+
+Serve with hot reload at localhost:3000
+``` bash
 $ yarn dev
 
-# build for production and launch server
+```
+
+Build for production and launch server
+``` bash
 $ yarn build
 $ yarn start
 
-# generate static project
-$ yarn generate
 ```
+
+Generate static project
+``` bash
+$ yarn build
+$ yarn start
+
+```
+
+<b>Stacks</b>
+- Vue Js
+- Nuxt Js
+- Axios
+- Webpack
+- Bootstrap
+- SCSS
+
+<b>API Source</b>
+- [Mockable.io](https://demo8935229.mockable.io) *Ask me if you want to change the Response of API you have to log in with my account*
+
+© [Faishal Arif]()
+<br>
+**faishal1303@gmail.com**
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
