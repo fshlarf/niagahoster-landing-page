@@ -42,6 +42,7 @@ export default {
   */
   buildModules: [
   ],
+  router: { base: '/niagahoster-landing-page/' },
   /*
   ** Nuxt.js modules
   */
