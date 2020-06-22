@@ -29,8 +29,7 @@ $ yarn start
 
 Generate static project
 ``` bash
-$ yarn build
-$ yarn start
+$ yarn generate
 
 ```
 
