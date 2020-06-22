@@ -42,12 +42,6 @@ export default {
         margin: 0 auto !important;
         padding: 0px 16px;
         display: flex;
-        &-info {
-
-        }
-        &-img {
-
-        }
     }
 }
 @media (max-width: 800px) {
