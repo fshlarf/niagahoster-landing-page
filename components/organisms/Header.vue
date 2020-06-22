@@ -4,7 +4,7 @@
             <div class="header__bar">
                 <ul class="nav header__bar-left">
                     <li class="nav-item">
-                        <img class="label-img" src="/images/ng-label.png">
+                        <img class="label-img" src="~/assets/images/ng-label.png">
                         <a class="nav-link" href="#" style="padding-left: 8px;">Gratis Ebook 9 Cara Cerdas Menggunakan Domain [ x ]</a>
                     </li>
                 </ul>

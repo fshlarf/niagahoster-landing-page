@@ -28,7 +28,7 @@
                     </div>
                 </div>
                 <div class="benefit__img">
-                    <img src="/images/support_laravel.svg">
+                    <img src="~/assets/images/support_laravel.svg">
                 </div>
             </div>
         </div>

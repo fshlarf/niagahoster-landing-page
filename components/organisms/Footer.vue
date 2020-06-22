@@ -63,7 +63,7 @@
             <div class="footer__row">
                 <div class="footer__payment">
                     <h5>PEMBAYARAN</h5>
-                    <img src="/images/payment.png" alt="">
+                    <img src="~/assets/images/payment.png" alt="">
                     <p class="grey-text">Aktivasi instan dengan e-Payment. Hosting dan domain langsung aktif!</p>
                 </div>
             </div>

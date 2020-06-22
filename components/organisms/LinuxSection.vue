@@ -13,7 +13,7 @@
                 <button type="button" class="linux__btn btn btn-primary">Pilih Hoting Anda</button>
             </div>
             <div class="linux__content-img">
-                <img src="/images/image_support.png">
+                <img src="~/assets/images/image_support.png">
             </div>
         </div>
     </div>

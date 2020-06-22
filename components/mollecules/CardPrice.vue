@@ -1,6 +1,6 @@
 <template>
     <div class="card" v-if="result">
-        <img class="best-seller" v-if="result.best_seller" src="/images/best-seller.png" alt="">
+        <img class="best-seller" v-if="result.best_seller" src="~/assets/images/best-seller.png" alt="">
         <table :style="[ result.best_seller && { 'border-color': '#008fee' }]">
             <tr :class="setClassPrice(result.best_seller)" :style="[ result.best_seller && { 'border-color': '#008fee' }]"><td><h3>{{ result.type }}</h3></td></tr>
             <tr :class="setClassPrice(result.best_seller)" :style="[ result.best_seller && { 'border-color': '#008fee' }]">
@@ -19,7 +19,7 @@
                 <div class="list-benefit">
                     <td v-for="(item, id) in result.benefits" :key="id">
                         <div v-html="item" v-if="item !== '5 stars'"></div>
-                        <img src="/images/five-star.png" alt="" v-if="item == '5 stars'">
+                        <img src="~/assets/images/five-star.png" alt="" v-if="item == '5 stars'">
                     </td>
                 </div>
             </tr>

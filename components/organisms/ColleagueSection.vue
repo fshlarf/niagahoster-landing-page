@@ -3,15 +3,15 @@
         <div class="collega container" align="center">
             <div class="row">
                 <div class="col collega__content">
-                    <img src="/images/hosting_zendguard.png" alt="Image not found" style="width: 13rem; margin-top: 103px;">
+                    <img src="~/assets/images/hosting_zendguard.png" alt="Image not found" style="width: 13rem; margin-top: 103px;">
                     <p>PHP Zend Guard Loader</p>
                 </div>
                 <div class="col collega__content">
-                    <img src="/images/hosting_composer.png" alt="Image not found" style="width: 7rem">
+                    <img src="~/assets/images/hosting_composer.png" alt="Image not found" style="width: 7rem">
                     <p>PHP Zend Guard Loader</p>
                 </div>
                 <div class="col collega__content">
-                    <img src="/images/hosting_ioncube.png" alt="Image not found" style="width: 13rem; margin-top: 103px;">
+                    <img src="~/assets/images/hosting_ioncube.png" alt="Image not found" style="width: 13rem; margin-top: 103px;">
                     <p>PHP Zend Guard Loader</p>
                 </div>
             </div>
